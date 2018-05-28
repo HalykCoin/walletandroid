@@ -1,0 +1,239 @@
+<resources>
+    <string name="application_launcher_name">Halykcoin Кошелек</string>
+    <string name="balance">Баланс</string>
+    <string name="title_send">Отправить</string>
+    <string name="title_request">Мой адрес</string>
+    <string name="title_import">Импортировать кошелек</string>
+    <string name="title_create">Создать</string>
+    <string name="title_account">Кошельки</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_create_account">Новый кошелек</string>
+
+    <!-- Strings relatedwalletount creation -->
+    <string name="prompt_email">Имя кошелька</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in">Создать</string>
+    <string name="action_sign_in_short">Создать</string>
+
+    <!-- String related to sending -->
+    <string name="prompt_to">Кому</string>
+    <string name="action_send">Отправить</string>
+
+    <string name="error_invalid_email">Неправильно введен email</string>
+    <string name="error_invalid_password">Этот пароль слишком короткий</string>
+    <string name="error_incorrect_password">Этот пароль неверный</string>
+    <string name="error_field_required">Это поле обязательно</string>
+    <string name="title_activity_account_list">Аккаунты</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_select_account">Кошельки</string>
+    <string name="title_account_list">Кошельки</string>
+    <string name="title_account_detail">Детали кошелька</string>
+    <string name="account_delete">удалить</string>
+    <string name="cancel">отмена</string>
+    <string name="confirm_delete_account">Удостоверьтесь что у вас есть резервная копия данного кошелька.</string>
+    <string name="title_activity_import_account">Импорт аккаунта</string>
+    <string name="action_import">Импорт</string>
+    <string name="title_activity_export_account">Экспорт</string>
+    <string name="action_export">Создать резервную копию ключа</string>
+    <string name="message_save_this">Храните его в безопасном месте</string>
+    <string name="copy">Скопировать</string>
+    <string name="close">Закрыть</string>
+    <string name="keystore_keyword">ФАЙЛ КЛЮЧА</string>
+    <string name="prompt_confirm_password">Подтвердить пароль</string>
+    <string name="menu_refresh">Обвновить</string>
+    <string name="sent">Отправлено</string>
+    <string name="received">Получено</string>
+    <string name="pending">Ожидание</string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="network_label">Сеть</string>
+    <string name="app_intro">Презентация</string>
+
+    <string name="low_storage_error">недостаточно места</string>
+    <string name="no_camera_permission">доступ к камере не получен</string>
+    <string name="ok">ок</string>
+    <string name="no_barcode_captured">QR код не получен</string>
+    <string name="scan_barcode_button">Сканировать</string>
+    <string name="barcode_error_format">Неверный формат QR кода: %s</string>
+    <string name="action_request">Мой адрес</string>
+    <string name="title_home">Главная</string>
+    <string name="title_dashboard">Панель</string>
+    <string name="title_notifications">Уведомления</string>
+    <string name="title_delete_account">Вы увереный что хотите удалить кошелек?</string>
+    <string name="no_transactions">Нет транзакций.\nПроведите пальцем вниз, чтобы обновить.</string>
+    <string name="twitter">Twitter</string>
+    <string name="telegram">Telegram</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Фрагмент</string>
+    <string name="title_community">Сообщество</string>
+    <string name="title_opensource">Открытый код</string>
+    <string name="title_security">Безопасность</string>
+    <string name="title_passcode">Код доступа</string>
+    <string name="title_source_code">Секретный код</string>
+    <string name="title_report_bug">Сообщить об ошибке</string>
+    <string name="title_rate">Оставить отзыв на Google Play</string>
+    <string name="title_support">Поддержка</string>
+    <string name="title_donate">Пожертвовать</string>
+    <string name="account_already_imported">Кошелек с данным адресом уже существует</string>
+    <string name="message_delete_account">Удаление кошелька навсегда. Удостоверьтесь что где-нибудь сохранен.</string>
+    <string name="error_import">Ошибка импортирования ключа</string>
+    <string name="message_this_is_your_address">Мой адрес Халыккоин кошелька</string>
+    <string name="min_pwd_length">Пароль должен быть длинной хотя-бы %d символов</string>
+    <string name="backup_warning_text">
+        Так как только вы имеете доступ к данному кошельку, удоставерьтесь что вы сохранили его где-нибудь на случай если приложение будет удалено. \n\n
+        Ваш кошелек еще нигде не сохранен.
+    </string>
+    <string name="message_no_backup">Резервная копия очень важна.</string>
+    <string name="error_deleting_account">Ошибка удаления кошелька</string>
+    <string name="error_deleting_account_with_details">Ошибка удаления кошелька %s</string>
+    <string name="error_passwords_must_match">Пароли должны совпадать.</string>
+    <string name="label_confirm_new_password">Подтвердите новый пароль</string>
+    <string name="label_new_password">Новый пароль</string>
+    <string name="activity_title_backup">Резервная копия: %s…</string>
+    <string name="action_backup">Резервная копия</string>
+    <string name="title_privacy_policy">Политика конфиденциальности</string>
+    <string name="title_terms">Условия и положения</string>
+    <string name="title_version">Версия</string>
+    <string name="title_activity_token_list">Токены</string>
+    <string name="title_tokens">Мои токены</string>
+    <string name="prompt_private_key">Приватный ключ</string>
+    <string name="error_import_private_key">Ошибка импортирования приватного ключа</string>
+    <string name="message_importing_private_key">Импортирование приватного ключа. Подождите.</string>
+    <string name="import_scan_qr">Сканировать ключ из QR кода</string>
+    <string name="lock_title">Экран блокировки</string>
+    <string name="lock_body">Экран блокировки не был активирован. Это небезопасно.</string>
+    <string name="lock_settings">Настройки блокировки</string>
+    <string name="lock_exit">Выход</string>
+    <string name="unlock_screen_title_android">Разблокируйте экран</string>
+    <string name="unlock_screen_prompt_android">Подалуйста разблокируйте устройство для продолжения.</string>
+    <string name="sending_progress">Отправка...</string>
+
+    <string name="backup_new_password_text">Пожалуйста придумайте пароль к резервной копии.</string>
+    <string name="do_manage_make_backup">Вам удалось создать резервную копию?</string>
+    <string name="yes_continue">Да, продолжить</string>
+    <string name="no_repeat">Нет, повторить</string>
+    <string name="unable_unblock_device">Невозможно разблокировать устройство.</string>
+    <string name="skip">Пропустить</string>
+    <string name="root_title">УСТРОЙСТВО НЕБЕЗОПАСНО</string>
+    <string name="root_body">Любое \'рутованное\' приложение может получить доступ к Халыккоин кошелько и украсть ваши монеты! Немедленно удалите приложение Халыккоин Кошелек с этого устройства и установите на другом, безопасном устройстве.</string>
+    <string name="gas_fee_title">Комиссия</string>
+    <string name="transfer">Перевод %s</string>
+    <string name="action_buy">Купить</string>
+    <string name="title_deposit">Каким способом приобрести?</string>
+    <string name="empty"/>
+    <string name="try_again">Повторить</string>
+    <string name="already_have_account">Уже есть кошелек?</string>
+    <string name="title_add_account">Добавить кошелек</string>
+    <string name="action_create_new_account">Создать новый кошелек</string>
+    <string name="unknown_error">Произошка ошибка.</string>
+    <string name="action_backup_wallet">Резервная копия кошелька</string>
+    <string name="action_backup_later">Сделать позже</string>
+    <string name="set_account_default">Вы хотите использовать новый кошелек по умолчанию?</string>
+    <string name="no_tokens">Токены не найдены.</string>
+    <string name="title_email">Отправить Email нам</string>
+    <!-- Titles -->
+    <string name="title_item_detail">Детали</string>
+    <string name="title_my_address">Мой адрес</string>
+    <string name="title_my_tokens">Мои токены</string>
+    <string name="title_activity_send">Отправить</string>
+    <string name="title_activity_confirmation">Подтвердить</string>
+    <!-- Suggestions -->
+    <string name="suggestion_field_required">* Обязательное поле</string>
+    <string name="suggestion_import_keystore">Импортировать кошелек так же просто как создать</string>
+    <string name="suggestion_private_key">Ключ должен быть длиной 255 символов</string>
+    <string name="suggestion_empty_password_available">Пароль можно оставить пустым.</string>
+    <string name="suggestion_this_is_your_address">Мой адрес %s кошелька</string>
+    <!-- Hints -->
+    <string name="hint_private_key_field">Секретный ключ *</string>
+    <string name="hint_keystore">Секретный ключ *</string>
+    <!-- Tabs labels-->
+    <string name="tab_keystore">Хранилище ключей</string>
+    <string name="tab_private_key">Секретный ключ</string>
+    <!-- Dialog titles -->
+    <string name="title_dialog_error">Ошибка</string>
+    <string name="title_dialog_handling">Обработка…</string>
+    <string name="title_dialog_watch_out">Внимание!</string>
+    <string name="title_dialog_add_account">Добавить кошелек</string>
+    <string name="title_dialog_deposit">Как вы хотели бы купить?</string>
+    <!-- Dialog messages-->
+    <string name="dialog_message">Введите пароль для шифрования вашего кошелька</string>
+    <string name="dialog_message_unrecoverable_message">Если с этим устройством что-то случится или приложение будет удалено - ни кошелек, ни деньги на нем не смогут быть восстановлены без резервной копии.</string>
+    <string name="toast_message_wallet_imported">Кошелек импортирован</string>
+    <string name="toast_message_wallet_exported">Резервная копия создана</string>
+    <string name="toast_qr_code_no_data">QR не содержит требуемую информацию</string>
+    <!-- Intro resources-->
+    <string name="intro_title_first_page"><![CDATA[Безопасный]]></string>
+    <string name="intro_message_first_page">Секретные ключи в безопасности на вашем устройстве.</string>
+    <!-- Menus -->
+    <string name="navigation_settings">Настройки</string>
+    <!-- Labels -->
+    <string name="label_from">От</string>
+    <string name="label_to">Кому</string>
+    <string name="label_gas_limit">Лимит</string>
+    <string name="label_gas_price">Комиссия</string>
+    <string name="label_network_fee">Комиссия</string>
+    <string name="button_ok">ОК</string>
+    <string name="hint_recipient_address">Адрес получателя</string>
+    <string name="hint_amount">Сумма</string>
+    <string name="hint_payment_id">ID покупки</string>
+    <string name="hint_contract_address">Адрес контракта</string>
+    <string name="hint_contract_symbol">Символ</string>
+    <string name="hint_contract_decimals">Десятичные</string>
+    <!-- Subtitles -->
+    <string name="subtitle_from">От</string>
+    <string name="subtitle_to">Кому</string>
+    <string name="subtitle_gas_fee">Комиссия</string>
+    <string name="subtitle_transaction_num">Номер транзакции</string>
+    <string name="subtitle_transaction_time">Время транзакции</string>
+    <string name="subtitle_block_num">Номер блока</string>
+    <!-- Actions -->
+    <string name="action_share">Поделиться</string>
+    <string name="action_transaction_detail">Подробнее</string>
+    <string name="action_add_wallet">Добавить кошелек</string>
+    <string name="action_coinbase">Coinbase</string>
+    <string name="action_shapeshift">Shapeshift</string>
+    <string name="action_changelly">Changelly</string>
+    <string name="action_wallets">Сменить кошелек</string>
+    <string name="action_next">Далее</string>
+    <string name="action_edit">Редактировать</string>
+    <string name="action_save">Сохранить</string>
+    <!-- Subject -->
+    <string name="subject_transaction_detail">Данные транзакции</string>
+    <string name="error_fail_load_transaction">Ошибка загрузки списка транзакций</string>
+    <string name="error_fail_generate_qr">Невозможно сгенерировать QR код.</string>
+    <string name="error_invalid_address">Неправильной адрес</string>
+    <string name="error_invalid_amount">Неправильная сумма</string>
+    <string name="error_transaction_failed">Ошибка транзакции</string>
+    <string name="error_must_numeric">должно быть цифровое значение.</string>
+    <string name="transaction_succeeded">Транзакция успешна</string>
+    <string name="NA">N/A</string>
+    <string name="minus">-</string>
+    <string name="error_wallet_not_selected">Кошелек не выбран</string>
+    <string name="no_transactions_yet">Пока что нет транзакций!</string>
+    <string name="unknown_balance_with_symbol">-- HLC</string>
+    <string name="unknown_balance_without_symbol">--</string>
+    <string name="dummy">dummy_value</string>
+    <string name="dummy_transaction_value">-- HLC</string>
+    <string name="title_dialog_sending">Отправка...</string>
+    <string name="welcome.erc20.label.title">Официальный</string>
+    <string name="welcome.erc20.label.description">Самый быстрый способ начать работать с Халыккоин на телефоне.</string>
+    <string name="i_understand">Я понимаю</string>
+    <string name="scan_qr">Получить адрес из QR кода</string>
+    <string name="info_gas_price"></string>
+    <string name="info_gas_limit"></string>
+    <string name="title_send_settings">Дополнительно</string>
+    <string name="title_activity_barcode">Сканер QR</string>
+    <string name="error_add_token">Невозможно добавить токен.</string>
+    <string name="title_add_token">Добавить токен</string>
+    <string name="transfer_warning_empty_response">Ошибка транзакции, проверьте список транзакций.</string>
+    <string name="copied_to_clipboard">Скопировано</string>
+    <string name="incorrect_private_key_error">Неправильный секретный ключ.</string>
+    <string name="promo_code_title">Промо код</string>
+    <string name="activate_referral_title">Активировать промо код</string>
+    <string name="referal_scan_instruction">Сосканируйте QR код нажатием кнопки</string>
+    <string name="halykcoin_referal_caption">Получить халыккоин</string>
+    <string name="referral_status_checking">Проверка…</string>
+    <string name="referral_activate_error">Ошибка активации.</string>
+    <string name="error_create_wallet">Ошибка при создании кошелька.</string>
+    <string name="transfer_error_message">Ошибка при переводе средств.</string>
+</resources>

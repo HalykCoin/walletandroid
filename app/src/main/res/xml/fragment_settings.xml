@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:title="@string/title_account"
+        >
+
+
+        <Preference
+            android:key="pref_backup"
+            android:icon="@mipmap/ic_backup"
+            android:title="@string/action_backup"
+            />
+
+        <Preference
+            android:key="pref_wallet"
+            android:icon="@mipmap/ic_logout"
+            android:title="@string/action_wallets"
+            />
+
+    </PreferenceCategory>
+
+    <!--<PreferenceCategory-->
+        <!--android:title="@string/promo_code_title"-->
+        <!--&gt;-->
+
+        <!--<Preference-->
+            <!--android:key="pref_referal"-->
+            <!--android:icon="@mipmap/ic_referal"-->
+            <!--android:title="@string/activate_referral_title"-->
+            <!--/>-->
+
+    <!--</PreferenceCategory>-->
+
+    <!--<PreferenceCategory-->
+        <!--android:title="@string/title_security"-->
+        <!--android:key="pref_security_items" >-->
+
+        <!--<SwitchPreference-->
+            <!--android:title="@string/title_passcode"-->
+            <!--android:icon="@drawable/ic_security_black_36dp"-->
+            <!--android:defaultValue="false"-->
+            <!--android:key="pref_passcode">-->
+
+        <!--</SwitchPreference>-->
+
+    <!--</PreferenceCategory>-->
+
+</PreferenceScreen>

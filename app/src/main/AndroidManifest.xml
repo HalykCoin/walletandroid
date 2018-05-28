@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.halykcoin.wallet">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name="org.halykcoin.wallet.App"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/application_launcher_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="false"
+        android:theme="@style/AppTheme.NoActionBar"
+        tools:replace="android:name, android:theme, android:allowBackup, android:label">
+        <activity
+            android:name="org.halykcoin.wallet.ui.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="org.halykcoin.wallet.ui.WalletsActivity"
+            android:label="@string/title_account_list" />
+
+        <activity
+            android:name="org.halykcoin.wallet.ui.ImportWalletActivity"
+            android:label="@string/title_import"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustResize" />
+
+        <activity
+            android:name="org.halykcoin.wallet.ui.TransactionsActivity"
+            android:label="@string/title_import" />
+
+        <activity
+            android:name="org.halykcoin.wallet.ui.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name="org.halykcoin.wallet.ui.TransactionDetailActivity"
+            android:label="@string/action_transaction_detail" />
+        <activity
+            android:name="org.halykcoin.wallet.ui.MyAddressActivity"
+            android:label="@string/title_my_address" />
+        <activity
+            android:name="org.halykcoin.wallet.ui.TokensActivity"
+            android:label="@string/title_my_tokens" />
+
+        <activity
+            android:name="org.halykcoin.wallet.ui.SendActivity"
+            android:label="@string/title_activity_send" />
+
+        <activity
+            android:name="org.halykcoin.wallet.ui.ConfirmationActivity"
+            android:label="@string/title_activity_confirmation" />
+
+        <activity
+            android:name="org.halykcoin.wallet.ui.AddTokenActivity"
+            android:label="@string/title_add_token"
+            />
+
+        <activity
+            android:name="org.halykcoin.wallet.ui.barcode.BarcodeCaptureActivity"
+            android:label="@string/title_activity_barcode" />
+
+        <activity
+            android:name="org.halykcoin.wallet.ui.GasSettingsActivity"
+            android:label="@string/title_send_settings" />
+
+        <activity android:name=".ui.ReferralActivity"
+            android:label="@string/activate_referral_title">
+            <!--<intent-filter >-->
+                <!--<action android:name="android.intent.action.VIEW" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+                <!--<category android:name="android.intent.category.BROWSABLE" />-->
+                <!--<data-->
+                    <!--android:scheme="halykcoin"-->
+                    <!--android:host="referral"-->
+                    <!--android:pathPrefix="/"-->
+                    <!--/>-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="74d3fa8b5038a154c0c05555d27112a0f4a80d68" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_path" />
+        </provider>
+    </application>
+
+</manifest>

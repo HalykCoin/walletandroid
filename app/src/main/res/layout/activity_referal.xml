@@ -1,0 +1,117 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlueLite"
+
+    >
+
+    <include layout="@layout/layout_simple_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?actionBarSize">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/white"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/bg_referal" />
+
+            <TextView
+                android:id="@+id/referal_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/half_large_margin"
+                android:gravity="center_horizontal"
+                android:text="@string/halykcoin_referal_caption"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:text="Activate referal code" />
+
+            <TextView
+                android:id="@+id/referral_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/big_padding"
+                android:paddingEnd="@dimen/big_padding"
+                android:paddingStart="@dimen/big_margin"
+                android:gravity="center_horizontal"
+                android:text="-"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                tools:text="XABV" />
+
+            <ProgressBar
+                android:id="@+id/referral_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/big_padding"
+                android:indeterminateDrawable="@drawable/custom_progress_bar_white"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/referral_status_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="@dimen/big_padding"
+                tools:text="@string/referral_status_checking"
+                android:textColor="@color/white"
+                android:visibility="gone"
+                />
+
+            <LinearLayout
+                android:id="@+id/referral_qr_code_block"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/half_large_margin"
+                    app:srcCompat="@drawable/ic_qr_code_big" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/half_large_margin"
+                    android:layout_marginStart="@dimen/half_large_margin"
+                    android:layout_marginEnd="@dimen/half_large_margin"
+                    android:gravity="center_horizontal"
+                    android:text="@string/referal_scan_instruction"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/referral_scan_qr"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:autoLink="web"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:linksClickable="true"
+                    android:text="@string/scan_barcode_button"
+                    android:textColor="@color/white"
+                    android:padding="@dimen/big_padding"
+                    android:layout_marginTop="@dimen/normal_margin" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
